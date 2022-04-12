@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+$family-sans-serif: "Jost", sans-serif;
+$vivid_sky_blue: #57C4E5;
+$bitter_lime: #BAFF29;
+$space_cadet: #1A1B41;
+$carrot_orange: #ED9112;
+
+$primary: $carrot_orange;
+$navbar-item-hover-background-color: $bitter_lime;
+$navbar-item-hover-color: $space_cadet;
+$link: $vivid_sky_blue;
+
+// @import "bulma/sass/utilities/_all.sass";
+// @import "bulma/sass/base/_all.sass";
+// @import "bulma/sass/elements/_all.sass";
+// @import "bulma/sass/components/navbar.sass";
+// @import "bulma/sass/components/menu.sass";
+// @import "bulma/sass/grid/columns.sass";
+// @import "bulma/sass/layout/_all.sass";
+// @import "bulma/sass/helpers/spacing.sass";
+
+@import "bulma/bulma.sass";
+
+$spacing-unit: 30px !default;
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+@import "minima/syntax-highlighting";
