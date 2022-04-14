@@ -31,3 +31,14 @@ $spacing-unit: 30px !default;
   margin-bottom: $spacing-unit / 2;
 }
 @import "minima/syntax-highlighting";
+
+header {
+  background-color: $vivid_sky_blue;
+    background-image:
+      linear-gradient(
+        to right,
+        $vivid_sky_blue,
+        white 50%
+      );
+}
+
