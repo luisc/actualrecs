@@ -34,11 +34,14 @@ $spacing-unit: 30px !default;
 
 header {
   background-color: $vivid_sky_blue;
-    background-image:
-      linear-gradient(
-        to right,
-        $vivid_sky_blue,
-        white 50%
-      );
-}
+  background-image:
+    url("/assets/images/bg.png"),
+    linear-gradient(
+      to right,
+      $vivid_sky_blue,
+      white 50%
+    );
+  background-position: 14% 0%;
+  background-repeat: repeat-x;
 
+}
