@@ -45,3 +45,17 @@ header {
 h2.post-link a:link, h2.post-link a:visited, h2.post-link a:active h2.post-link a:hover {
   color: $grey-darker;
 }
+
+header .imac {
+  width: 150px;
+  height: 150px;
+}
+
+header .dude {
+  width: 200px;
+  height: 200px;
+}
+
+header nav.navbar {
+  border-top: 1px solid #000;
+}
