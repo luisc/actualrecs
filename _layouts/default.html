@@ -7,39 +7,38 @@
 
     {%- include header.html -%}
 
-    <section class="section">
-      <main class="content is-widescreen container" aria-label="Content">
-        <div class="columns">
-          <div class="column is-four-fifths">
-            {{ content }}
-          </div>
-          <div class="column">
-            <article class="message is-primary">
-              <div class="message-header">
-                <p>Recent Posts</p>
-              </div>
-              <div class="message-body">
-                <p>Every Frame a Painting</p>
-                <p>Kewl Stuff</p>
-                <p>Etc</p>
-              </div>
-            </article>
-
-            <article class="message is-info">
-              <div class="message-header">
-                <p>Actual Recs</p>
-              </div>
-              <div class="message-body">
-                <p>Tired of your <strong>YouTube recommendations</strong>? Maybe you have hit <strong>ignore</strong> one too many times and it has done nothing.</p>
-                <p>You watched ONE video about how to fix your thermostat, and now everything on youtube is about thermostats.</p>
-                <p>Well, that's what happened to me at least. I've been searching high and low for the best long-form content, and now I am here to give you <strong>Actual Recs</strong>!</p>
-                <p>I try to post daily. - AR</p>
-              </div>
-            </article>
-          </div>
+    <main class="content is-widescreen container" aria-label="Content">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          {{ content }}
         </div>
-      </main>
-    </section>
+        <div class="column">
+          <article class="message is-info">
+            <div class="message-header">Topics</div>
+              <a href="/topics/current/" class="navbar-item">Current Affairs</a>
+              <a href="/topics/history/" class="navbar-item">History</a>
+              <a href="/topics/economics/" class="navbar-item">Economics</a>
+              <a href="/topics/stem/" class="navbar-item">STEM</a>
+              <a  href="/topics/film/" class="navbar-item">Film</a>
+              <a  href="/topics/music/" class="navbar-item">Music</a>
+              <a  href="/topics/cooking/" class="navbar-item">Cooking</a>
+              <a  href="/topics/fun/" class="navbar-item">Fun</a>
+          </article>
+
+          <article class="message is-primary">
+            <div class="message-header">Recent Posts</div>
+            <div class="message-body">
+              {%- for post in site.posts limit:5 -%}
+                <p><a class="sidebar-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a></p>
+              {%- endfor -%}
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </main>
 
     {%- include footer.html -%}
 
