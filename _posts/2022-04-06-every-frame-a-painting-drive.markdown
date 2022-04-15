@@ -23,4 +23,4 @@ For now, let's stick with a review of a movie that I love, [Drive from 2011](htt
 
 Further reading: I haven't read the [book the movie was based on](https://www.goodreads.com/book/show/176378.Drive), but maybe you will!
 
-P.S. Well, I just borrowed it from the library while writing this as I have been meaning to read it for, let's see 11 years? You know, after I walked out of the theater having seen Drive. 
+P.S. Well, I just borrowed it from the library while writing this as I have been meaning to read it for... how long was it that I walked out of that movie theater after seeing Drive? 11 years? Yikes, 2011 was 11 years ago!

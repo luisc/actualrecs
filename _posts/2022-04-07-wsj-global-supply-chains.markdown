@@ -4,7 +4,7 @@ title:  "WSJ - Global Supply Chains (2022)"
 date:   2022-04-07 18:43:25 -0400
 categories: economics
 ---
-We've been hearing it from everywhere, **inflation, inflation**! It's a real problem, and it sucks. If you are a person with any sort of normal or below average wage, you know how much it sucks every time you buy some groceries. If you have oodles of money, you're annoyed that your returns are having a difficult time keeping pace with inflation.
+We've been hearing it from everywhere, **inflation, inflation**! It's a real problem, and it sucks. If you are a normal person who has to worry about housing, food, etc. - you know how much it sucks. If you are beyond loaded, you're annoyed that your returns are having a difficult time keeping pace with inflation.
 
 Inflation is due to a million factors, and this Wall Street Journal doc sheds some light on the supply chain side of things in the United States.
 
