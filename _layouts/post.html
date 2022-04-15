@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-  <p class="post-meta">
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+  <div>
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: site.date_format }}
     </time>
@@ -13,7 +13,8 @@ layout: default
     {%- endfor -%}
     {%- if page.author -%}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-    {%- endif -%}</p>
+    {%- endif -%}
+  </div>
 
   <div class="block" itemprop="articleBody">
     {{ content }}
