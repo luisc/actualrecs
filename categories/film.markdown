@@ -10,8 +10,6 @@ permalink: "/topics/film/"
 >
 > On occasion, an entire movie 📽
 
-## Posts
-
 {% for post in site.categories.film %}
- * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: site.date_format }}
+  {% include article.html post=post %}
 {% endfor %}

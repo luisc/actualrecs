@@ -4,6 +4,7 @@ title:  "A Real Life Lightsaber?! (2020)"
 date: 2022-04-14 18:43:25 -0400
 categories: fun
 youtube_id: xC6J4T_hUKg
+image: https://i.imgur.com/crbfMrb.jpg
 ---
 A fond memory that I have as a little kid was trying to make my own lightsaber. It wasn't particularly sophisticated; it consisted of me finding some red tissue paper and putting it over my grandfather's flashlight. (For some reason he always kept [this flashlight](https://i.imgur.com/377sxiD.jpg) next to his bed on the nightstand.)
 
@@ -17,6 +18,4 @@ Check it out ▶️
 
 {% include advertising-notice.html %}
 
-<figure class="image is-16by9">
-  <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+{% include youtube.html youtube_id=page.youtube_id %}

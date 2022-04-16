@@ -3,6 +3,8 @@ layout: post
 title:  "WSJ - Global Supply Chains (2022)"
 date:   2022-04-07 18:43:25 -0400
 categories: economics
+youtube_id: 1KtTAb9Tl6E
+image: https://i.imgur.com/yIH89S1.jpg
 ---
 We've been hearing it from everywhere, **inflation, inflation**! It's a real problem, and it sucks. If you are a normal person who has to worry about housing, food, etc. - you know how much it sucks. If you are beyond loaded, you're annoyed that your returns are having a difficult time keeping pace with inflation.
 
@@ -12,9 +14,7 @@ Basically, the United States is a consumption economy: nearly [70% of our GDP is
 
 What happens to actually get a good on the shelf? Ships and trucks mostly. What happens when there are problems with shipping and trucking? Hit ▶️!
 
-<figure class="image is-16by9">
-  <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/1KtTAb9Tl6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+{% include youtube.html youtube_id=page.youtube_id %}
 
 Further reading:
 * [Arriving Today: From Factory to Front Door-Why Everything Has Changed About How and What We Buy](https://www.goodreads.com/book/show/56816996-arriving-today)

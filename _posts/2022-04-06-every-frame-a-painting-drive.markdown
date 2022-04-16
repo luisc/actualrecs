@@ -3,6 +3,8 @@ layout: post
 title:  "Every Frame a Painting - Drive (2011)"
 date:   2022-04-06 18:43:25 -0400
 categories: film
+youtube_id: wsI8UES59TM
+image: https://i.imgur.com/zlIinUX.jpg
 ---
 
 Every Frame a Painting was one of the first in person YouTube recommendations someone gave me, and in some way is probably the actual genesis of this blog.
@@ -17,9 +19,7 @@ I am bound to post more Every Frame a Painting videos as they are some of the be
 
 For now, let's stick with a review of a movie that I love, [Drive from 2011](https://en.wikipedia.org/wiki/Drive_(2011_film)) ▶️.
 
-<figure class="image is-16by9">
-  <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/wsI8UES59TM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+{% include youtube.html youtube_id=page.youtube_id %}
 
 Further reading: I haven't read the [book the movie was based on](https://www.goodreads.com/book/show/176378.Drive), but maybe you will!
 

@@ -6,9 +6,36 @@
           ActualRecs
         </p>
         <ul class="menu-list">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li>
+            <a href="/">
+              {% include icon.html icon_text="Home" icon_name="home" %}
+            </a>
+          </li>
+
+          <li>
+            <a href="/about/">
+              {% include icon.html icon_text="About" icon_name="caret-forward-circle" %}
+            </a>
+          </li>
+
+          <li>
+            <a href="/resources/">
+              {% include icon.html icon_text="Resources" icon_name="barbell-outline" %}
+            </a>
+          </li>
+          
+          <li>
+            <a href="/faq/">
+              {% include icon.html icon_text="FAQ" icon_name="help-circle" %}
+            </a>
+          </li>
+          
+          <li>
+
+            <a href="/contact/">
+              {% include icon.html icon_text="Contact" icon_name="chatbox" %}
+            </a>
+          </li>
         </ul>
       </aside>
     </div>
@@ -17,37 +44,10 @@
       <aside class="menu">
         <p class="menu-label">Connect</p>
         <p>
-          <a href="/">
-            <span class="icon-text">
-              <span class="icon">
-                <ion-icon name="logo-twitter">Twitter</ion-icon>
-              </span>
-            </span>
-          </a>
-
-          <a href="/">
-            <span class="icon-text">
-              <span class="icon">
-                <ion-icon name="logo-facebook">Facebook</ion-icon>
-              </span>
-            </span>
-          </a>
-
-          <a href="/">
-            <span class="icon-text">
-              <span class="icon">
-                <ion-icon name="logo-instagram">Instagram</ion-icon>
-              </span>
-            </span>
-          </a>
-
-          <a href="/">
-            <span class="icon-text">
-              <span class="icon">
-                <ion-icon name="logo-tiktok">TikTok</ion-icon>
-              </span>
-            </span>
-          </a>
+          {% include social.html social_site="Twitter" username=site.twitter_username %}
+          {% include social.html social_site="Facebook" username=site.facebook_username %}
+          {% include social.html social_site="Instagram" username=site.instagram_username %}
+          {% include social.html social_site="TikTok" username=site.tiktok_username %}
         </p>
         <p class="rss-subscribe">
           subscribe

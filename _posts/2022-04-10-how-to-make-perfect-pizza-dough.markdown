@@ -3,6 +3,8 @@ layout: post
 title:  "How to Make Perfect Pizza Dough (2021)"
 date: 2022-04-10 18:43:25 -0400
 categories: cooking
+youtube_id: G-jPoROGHGE
+image: https://i.imgur.com/yV0vB8s.jpg
 ---
 I have been cooking a TON since 2020. The last 6 months I have ratcheted that cooking up a new level, and have also been baking quite a bit.
 
@@ -14,9 +16,7 @@ If you are queasy about baking or it seems like too much work, it isn't! Well it
 
 Anyway, this is definitely worth a watch, even if you don't have interest in making your own dough 🍕
 
-<figure class="image is-16by9">
-  <iframe class="has-ratio" width="560" height="315" src="https://www.youtube.com/embed/G-jPoROGHGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+{% include youtube.html youtube_id=page.youtube_id %}
 
 Further reading:
 * [How Long To Let Pizza Dough Rise, According To Pizza Makers](https://www.huffpost.com/entry/pizza-dough-rise-time_l_5d7299f9e4b07521022bca8f)

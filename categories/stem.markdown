@@ -10,8 +10,6 @@ permalink: "/topics/stem/"
 >
 > Even if you don't geek out over science-y things, take a gander - this stuff rules 🔬
 
-## Posts
-
 {% for post in site.categories.stem %}
- * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: site.date_format }}
+  {% include article.html post=post %}
 {% endfor %}

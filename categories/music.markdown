@@ -10,8 +10,6 @@ permalink: "/topics/music/"
 >
 > Sometimes just a great song or album from an underappreciated artist or compilation 🎵
 
-## Posts
-
 {% for post in site.categories.music %}
- * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: site.date_format }}
+  {% include article.html post=post %}
 {% endfor %}

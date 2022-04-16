@@ -10,8 +10,6 @@ permalink: "/topics/current-affairs/"
 >
 > It might be something happening now, it might also be something from the 90s. Then again the 90s don't seem like they were very long ago to me 🕴️
 
-## Posts
-
 {% for post in site.categories["Current Affairs"] %}
- * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: site.date_format }}
+  {% include article.html post=post %}
 {% endfor %}

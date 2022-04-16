@@ -10,8 +10,6 @@ permalink: "/topics/fun/"
 >
 > That's not to say the other ActualRecs aren't fun, but this stuff definitely is 😸
 
-## Posts
-
 {% for post in site.categories.fun %}
- * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: site.date_format }}
+  {% include article.html post=post %}
 {% endfor %}

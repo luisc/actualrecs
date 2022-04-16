@@ -1,0 +1,24 @@
+<article class="content mb-6 p-2">
+  <h2 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+  <p>
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.date | date: post.date_format }}
+      </a>
+    </time>
+
+    {%- for category in post.categories -%}
+      <a href="/topics/{{ category | slugify }}/"><span class="tag is-primary is-light ml-2">{{ category | upcase }}</span></a>
+    {%- endfor -%}
+  </p>
+  <div class="is-pulled-left article-image">
+    <figure class="image ml-0 mt-1 is-2x1">
+      <img src="{{ post.image }}">
+    </figure>
+  </div>
+  
+  {{ post.content }}
+  
+  <div class="is-clearfix"></div>
+</article>
+<hr>

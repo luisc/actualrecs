@@ -5,6 +5,11 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <h1 itemprop="name headline">{{ page.title | escape }}</h1>
   <div>
+
+    <figure class="image ml-0 mt-1 is-2x1">
+      <img src="{{ page.image }}">
+    </figure>
+
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: site.date_format }}
     </time>

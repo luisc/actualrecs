@@ -7,26 +7,7 @@ layout: default
 {{ content }}
 
 {%- for post in paginator.posts -%}
-  <article class="content mb-6 p-2">
-    <h2 class="post-link"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    <p>
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.date | date: site.date_format }}
-        </a>
-      </time>
-
-      {%- for category in post.categories -%}
-        <a href="/topics/{{ category | slugify }}/"><span class="tag is-primary is-light ml-2">{{ category | upcase }}</span></a>
-      {%- endfor -%}
-    </p>
-    <figure class="image mt-1 is-128x128 is-pulled-right">
-      <img src="{{ post.image }}">
-    </figure>
-    {{ post.content }}
-    <div class="is-clearfix"></div>
-  </article>
-  <hr>
+  {% include article.html post=post %}
 {%- endfor -%}
 
 {%- if paginator.total_pages > 1 -%}
