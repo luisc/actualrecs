@@ -17,7 +17,7 @@ That's where my idea for this blog came. I'm here to give you:
 ### Positivity
 There's an inordinate amount of negativity on the internet. One click on any heavily replied to tweet makes me question if the whole of humanity has lost its mind.
 
-While I have my own down days like anyone else does - I make a conscious effort to only post interesting and thought provoking content. The subject matter of the content might not be positive (for example, some true crime piece) but the content will be interesting.
+While I have my own down days like anyone else - I make a conscious effort to only post interesting and thought provoking content. The subject matter of the content might not be positive (for example, some true crime piece) but the content will be interesting.
 
 ### Accessibility
 In a past life, I was a programmer, and there is great video content out there for development purposes. I won't be posting any highly technical content on here as I want everything here to be accessible to everyone.
