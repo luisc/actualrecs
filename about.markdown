@@ -20,9 +20,9 @@ There's an inordinate amount of negativity on the internet. One click on any hea
 While I have my own down days like anyone else - I make a conscious effort to only post interesting and thought provoking content here. The subject matter of the content might not be positive (for example, some true crime piece) but the content will be interesting.
 
 ### Accessibility
-In a past life, I was a programmer, and there is great video content out there for development purposes. I won't be posting any highly technical content on here as I want everything here to be accessible to everyone.
+I've done lots of programming and development work, and there is great video content out there for that. I won't be posting any highly technical content on here as I want everything here to be accessible to everyone.
 
-Everything I post here will be accessible stuff that anyone can digest.
+So sit back and relax!
 
 ### Sources
 Whenever possible, I will try to link to the original creator of a work. Tons of content gets reposted and reused by other folks to get, likes, clicks, subscribers, etc., and I will do my best to give credit to the original creators!
