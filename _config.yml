@@ -27,7 +27,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://actualrecs.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: actualrecs
-facebook_username: actualrecs
+# facebook_username: actualrecs
+# instagram_username: actualrecs
+# tiktok_username: actualrecs
 
 date_format: "%B %-d, %Y"
 
