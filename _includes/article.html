@@ -3,7 +3,7 @@
   <p>
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       <a href="{{ post.url | relative_url }}">
-        {{ post.date | date: post.date_format }}
+        {{ post.date | date: site.date_format }}
       </a>
     </time>
 
