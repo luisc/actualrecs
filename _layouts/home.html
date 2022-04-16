@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<blockquote>Daily posts! Mostly long-form(ish) YouTube content 📺</blockquote>
+
 {%- if page.title -%}
   <h1>{{ page.title }}</h1>
 {%- endif -%}
@@ -20,7 +22,7 @@ layout: default
         </time>
 
         {%- for category in post.categories -%}
-          <a href="/topics/{{ category | slugize }}/"><span class="tag is-primary is-light ml-2">{{ category | capitalize }}</span></a>
+          <a href="/topics/{{ category | slugify }}/"><span class="tag is-primary is-light ml-2">{{ category | upcase }}</span></a>
         {%- endfor -%}
       </p>
       <figure class="image mt-1 is-128x128 is-pulled-right">
