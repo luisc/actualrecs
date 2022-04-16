@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-> Pretty all over the place list, but these are resources I use all the time!
+> Pretty all over the place list, but these are resources I use all the time
 
 * [KEXP](https://kexp.org/) - Probably the best radio station all around
 * [Libby App](https://libbyapp.com/) - If you don't have a library card get one, you can read tons of books, audiobooks etc from here. Truly awesome!
