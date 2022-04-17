@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Music
 category-name: Music
 permalink: "/topics/music/"
+summary: Actual Recommendations for videos about music, musicians, bands and genres
+image: https://i.imgur.com/NveTaAE.jpg
 ---
-
-# {{ page.category-name }}
 
 > Mostly **short documentaries about music**: musicians, bands, genres.
 >

@@ -2,6 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact/
+image: https://i.imgur.com/sSpez0n.jpg
+summary: Contact ActualRecs (email is your best bet!)
 ---
 
 Email is the best way to get a hold of me:

@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Cooking
 category-name: Cooking
 permalink: "/topics/cooking/"
+summary: Actual Recommendations for videos to help you cook or bake your next great meal.
+image: https://i.imgur.com/ALhOO7B.jpg
 ---
-
-# {{ page.category-name }}
 
 > Cooking AND Baking, sometimes they are one and the same.
 >

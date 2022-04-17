@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+summary: What is ActualRecs about? Giving YOU great recommendations!
+image: https://i.imgur.com/Io16eXy.jpg
 ---
 
 > I know that YouTube has great content. But it's hard to find.

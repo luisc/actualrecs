@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Film
 category-name: Film
 permalink: "/topics/film/"
+summary: Actual Recommendations for videos about films, usually making ofs and some theory and critique
+image: https://i.imgur.com/FKIKlUO.jpg
 ---
-
-# {{ page.category-name }}
 
 > Everything from the **making of a movie**, to **film theory** to a **good review** of a film.
 >

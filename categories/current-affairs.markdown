@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Current Affairs
 category-name: Current Affairs
 permalink: "/topics/current-affairs/"
+summary: Actual Recommendation for videos about the world now and the recent past.
+image: https://i.imgur.com/CITaRUB.jpg
 ---
-
-# {{ page.category-name }}
 
 > So these posts aren't *necessarily current*, but I wasn't sure what else to call it.
 >

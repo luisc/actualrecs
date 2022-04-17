@@ -1,10 +1,11 @@
 ---
 layout: page
+title: STEM
 category-name: STEM
 permalink: "/topics/stem/"
+summary: Actual Recommendations for videos about Science, Technology, Engineering and Mathematics
+image: https://i.imgur.com/iDzVwB6.jpg
 ---
-
-# {{ page.category-name }}
 
 > Anything about, you guessed it, Science, Technology, Engineering and Mathematics
 >

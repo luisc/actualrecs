@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Economics
 category-name: Economics
 permalink: "/topics/economics/"
+summary: Actual Recommendations for videos about economics, mostly macro and theory
+image: https://i.imgur.com/3kYnJll.jpg
 ---
-
-# {{ page.category-name }}
 
 > Stock market stuff, macroeconomics, theory of money. 
 >

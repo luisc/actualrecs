@@ -1,10 +1,11 @@
 ---
 layout: page
+title: History
 category-name: History
 permalink: "/topics/history/"
+summary: Actual Recommendations for videos about history, everything from the 60s back to the ancient world
+image: https://i.imgur.com/bwvS6Qk.jpg
 ---
-
-# {{ page.category-name }}
 
 > Anything about 1960s and before. Ancient history stuff too.
 >

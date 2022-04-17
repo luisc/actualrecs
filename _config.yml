@@ -21,10 +21,11 @@
 title: ActualRecs.com
 email: actualrecs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Actual Recommendations from a human. No algorithms,
-  just recommendations for good long form content.
+  Daily posts! Mostly long-form(ish) video content 📺
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://actualrecs.com/" # the base hostname & protocol for your site, e.g. http://example.com
+
+title_image: https://i.imgur.com/2vUSYPs.jpg
 
 twitter_username: actualrecs
 # facebook_username: actualrecs

@@ -2,6 +2,8 @@
 layout: page
 title: Resources
 permalink: /resources/
+summary: ActualRecs resources to help you in your everyday life on the internet
+image: https://i.imgur.com/3WzS54v.jpg
 ---
 
 > Pretty all over the place list, but these are resources I use all the time

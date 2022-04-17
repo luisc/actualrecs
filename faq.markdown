@@ -2,6 +2,8 @@
 layout: page
 title: FAQ
 permalink: /faq/
+summary: Find answers to all of your burning questions
+image: https://i.imgur.com/L3YRqEQ.jpg
 ---
 
 > Ask and ye shall find
