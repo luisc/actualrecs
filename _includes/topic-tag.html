@@ -1,0 +1,2 @@
+{% assign category_slug = include.category | slugify %}
+<a href="/topics/{{ category_slug }}/"><span class="tag {{ site.tag_class[category_slug] }} ml-2 is-light">{{ category | upcase }}</span></a>

@@ -8,7 +8,7 @@
     </time>
 
     {%- for category in post.categories -%}
-      <a href="/topics/{{ category | slugify }}/"><span class="tag is-primary is-light ml-2">{{ category | upcase }}</span></a>
+      {% include topic-tag.html category=category %}
     {%- endfor -%}
   </p>
   <div class="is-pulled-left article-image">

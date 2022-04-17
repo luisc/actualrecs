@@ -38,6 +38,17 @@ show_excerpts: true
 
 future: true
 
+tag_class:
+  current-affairs: is-dark
+  history: is-light
+  economics: is-success
+  stem: is-link
+  film: is-danger
+  music: is-info
+  cooking: is-warning
+  fun: is-primary
+
+
 # Build settings
 theme: minima
 plugins:

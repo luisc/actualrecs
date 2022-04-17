@@ -9,11 +9,11 @@ layout: default
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: site.date_format }}
     </time>
+    
     {%- for category in page.categories -%}
-      <a href="/topics/{{ category | slugize }}/">
-        <span class="tag is-primary is-light ml-2">{{ category | upcase }}</span>
-      </a>
+      {% include topic-tag.html category=category %}
     {%- endfor -%}
+
     {%- if page.author -%}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
     {%- endif -%}
