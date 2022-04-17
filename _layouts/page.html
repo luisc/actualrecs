@@ -4,9 +4,10 @@ layout: default
 
 <article>
   <h1 class="post-title">{{ page.title | escape }}</h1>
+
+  <figure class="image ml-0 mt-1 is-2x1">
+    <img class="is-rounded" src="{{ page.image }}">
+  </figure>
+
   {{ content }}
 </article>
-
-<figure class="image ml-0 mt-1 is-2x1">
-  <img src="{{ page.image }}">
-</figure>

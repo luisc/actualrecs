@@ -11,6 +11,12 @@ ActualRecs 📧 gmail
 
 Obviously replace the emoji with @! That's my best low effort attempt at warding off spam 🙃
 
-You can find me on [Twitter](https://twitter.com/actualrecs/). In the future probably Facebook, maybe Instagram and TikTok too.
+You can find me on [Twitter](https://twitter.com/actualrecs/) and [Facebook](https://facebook.com/actualrecs). In the future maybe Instagram and TikTok too.
 
 — AR
+
+## Mailing List
+
+I also send weekly newsletters on Saturday, recapping the week's post.
+
+{% include mailing-list.html %}

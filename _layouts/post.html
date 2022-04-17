@@ -6,10 +6,6 @@ layout: default
   <h1 itemprop="name headline">{{ page.title | escape }}</h1>
   <div>
 
-    <figure class="image ml-0 mt-1 is-2x1">
-      <img src="{{ page.image }}">
-    </figure>
-
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {{ page.date | date: site.date_format }}
     </time>
@@ -24,6 +20,10 @@ layout: default
   </div>
 
   <div class="block" itemprop="articleBody">
+    <figure class="image ml-0 mt-3 is-2x1">
+      <img class="is-rounded" src="{{ page.image }}">
+    </figure>
+
     {{ content }}
   </div>
 
