@@ -2,7 +2,7 @@
 layout: post
 title:  "Making of Goodfellas (1990)"
 date: 2022-04-19 12:47:25 -0400
-categories: Film
+categories: film
 youtube_id: _bbzUZuxEB8
 image: https://i.imgur.com/4Rr458Y.jpg
 ---
